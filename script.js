@@ -6,7 +6,7 @@ var hidden = document.createElement('canvas');
 var hiddenX = hidden.getContext('2d');
 var x = result.getContext('2d');
 
-let links = ["https://i.imgur.com/zEGhnOD.jpeg", "https://i.imgur.com/iTSCkNn.jpeg", "https://i.imgur.com/Ty3zLxO_d.jpg?maxwidth=520&shape=thumb&fidelity=high"];
+let links = ["https://i.imgur.com/Ty3zLxO_d.jpg", "https://i.imgur.com/iTSCkNn.jpeg","https://i.imgur.com/zEGhnOD.jpeg"];
 let myURL = links[2];//links[Math.floor(Math.random()*links.length)];
 
 image.addEventListener('change', main)
