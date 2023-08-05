@@ -196,7 +196,7 @@ function getEm(){
 
 function downloadIt(){
   var link = document.createElement('a');
-  link.download = 'EmojiArtMaker.png';
+  link.download = 'DarkV_EmojiArt.png';
   link.href = result.toDataURL()
   link.click();
 }
