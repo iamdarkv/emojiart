@@ -1,64 +1,76 @@
-/* Định dạng phần tử #controls */
-#controls {
-  background-color: #f0f0f0;
-  padding: 20px;
-  display: flex; /* Sử dụng Flexbox */
-  flex-direction: column; /* Hiển thị các phần tử dọc theo trục chính */
-  align-items: center; /* Căn giữa theo chiều ngang */
-}
+<!DOCTYPE html>
+<html>
 
-/* Định dạng tiêu đề h1 */
-h1 {
-  font-family: Arial, sans-serif;
-  color: #333;
-  font-size: 28px;
-  margin-bottom: 20px; /* Khoảng cách phía dưới tiêu đề */
-}
+<head>
+  <title>Emoji Art Generator</title>
+  <style>
+    /* CSS cho toàn bộ trang */
+    body {
+      background-color: #f9f9f9; /* Màu nền nhẹ nhàng cho toàn bộ trang */
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
 
-/* Định dạng nhãn */
-label {
-  color: #444;
-  font-size: 18px;
-  margin-bottom: 5px;
-}
+    /* CSS cho khu vực điều khiển */
+    #controls {
+      background-color: #f0f0f0; /* Màu nền nhẹ nhàng cho khu vực điều khiển */
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-/* Định dạng thanh trượt input */
-input[type="range"] {
-  width: 200px;
-  background-color: #ddd;
-}
+    /* Định dạng tiêu đề h1 */
+    h1 {
+      font-size: 28px;
+      margin: 0;
+      padding: 10px;
+    }
 
-/* Định dạng chú thích cạnh thanh trượt */
-.infoLabel {
-  color: #555;
-  font-size: 14px;
-  margin-top: 5px; /* Khoảng cách phía trên chú thích */
-}
+    /* Định dạng nhãn */
+    label {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 5px;
+    }
 
-/* Định dạng nút Download Image */
-a {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 20px;
-}
+    /* Định dạng thanh trượt input */
+    input[type="range"] {
+      width: 200px;
+      background-color: #ddd;
+    }
 
-/* Định dạng tùy chọn select */
-select {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 10px; /* Khoảng cách phía trên tùy chọn */
-}
+    /* Định dạng chú thích cạnh thanh trượt */
+    .infoLabel {
+      font-size: 14px;
+      color: #555;
+      margin-top: 5px;
+    }
 
-/* Định dạng chân trang footer */
-footer {
-  background-color: #f0f0f0;
-  padding: 10px;
-  text-align: center;
-  font-size: 16px;
-  margin-top: 30px; /* Khoảng cách phía trên chân trang */
-}
+    /* Định dạng nút Download Image */
+    a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    /* Định dạng tùy chọn select */
+    select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    /* Định dạng chân trang footer */
+    footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 30px;
+    }
